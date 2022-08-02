@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+}
+.postContainer {
+  width: 70%;
+  height: 200%;
+  margin: 0px auto 0px auto;
+  background-color: #fffafa;
+}
+.postContainer .date {
+  color: #008080;
+  font-family: "Roboto";
+}
+h1 {
+  font-family: "Montserrat";
+  margin-left: 50px;
+}
+.postContainer .texto {
+  font-family: "Open Sans";
+  margin-left: 50px;
+  font-weight: normal;
+}
+.header {
+  background-color: black;
+
+  display: flex;
+
+  padding: 10px 25px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.button {
+  font-size: 30px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  transition: 1s;
+  padding: 10px 15px;
+}
+.button:hover {
+  border-color: red;
+}
+.img1 {
+  width: 40px;
+}
+.img2 {
+  width: 40px;
+}
